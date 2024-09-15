@@ -4,6 +4,6 @@ function sum2Num(n1, n2, n3) {
       alert('Good job!');
     } 
     else {
-      alert('Bad job! Result must be' + n);
+      alert('Bad job! Result must be ' + n);
     }   
   }
