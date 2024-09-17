@@ -1,0 +1,23 @@
+body {    
+    background-color: rgb(14, 14, 13);    
+  }
+
+h2 {
+    color: rgb(242, 0, 255);
+    text-align: center;
+  }
+  
+div {
+    color: aliceblue;    
+  }
+
+p {
+    color: red;
+    text-align: center;
+   }
+
+.center {
+    margin: auto;
+    width: 50%;
+  }
+

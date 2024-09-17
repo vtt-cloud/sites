@@ -1,22 +1,19 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <title>Addition of 2 numbers</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
 <body>
-
-<h2>Phép cộng 2 số tự nhiên</h2>
-
-<form>  
-  <input type="number" name="num1">
-  <label> + </label>
-  <input type="number" name="num2">
-  <label> = </label>
-  <input type="number" name="num3">
-  <!--
-  <input type="submit" onclick="sum2Num(num1, num2, num3);">
-  -->
-  <button id="btn" onclick='sum2Num(num1,num2,num3)'>Click me</button>
-</form>
-
-<script src="sum2num.js"></script>
-
+  <h2>Addition of 2 integers</h2>
+  <div class="center"> 
+    <input type="number" id="num1"> <label> + </label>
+    <input type="number" id="num2"> <label> = </label>
+    <input type="number" id="num3">
+    <button id="btn" onclick="sum2Num()">Check me</button>
+    <!-- <p id="result"></p> -->
+  </div>
+  <script src="sum2num.js"></script>
 </body>
 </html>
